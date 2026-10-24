@@ -161,3 +161,39 @@ path = "chapter-04-data-structures/08-traits.rs"
 [[example]]
 name = "ch04-09"
 path = "chapter-04-data-structures/09-derive-and-display.rs"
+
+[[example]]
+name = "ch05-01"
+path = "chapter-05-error-handling/01-panic.rs"
+
+[[example]]
+name = "ch05-02"
+path = "chapter-05-error-handling/02-result.rs"
+
+[[example]]
+name = "ch05-03"
+path = "chapter-05-error-handling/03-matching-errors.rs"
+
+[[example]]
+name = "ch05-04"
+path = "chapter-05-error-handling/04-unwrap-and-expect.rs"
+
+[[example]]
+name = "ch05-05"
+path = "chapter-05-error-handling/05-question-mark.rs"
+
+[[example]]
+name = "ch05-06"
+path = "chapter-05-error-handling/06-custom-error-types.rs"
+
+[[example]]
+name = "ch05-07"
+path = "chapter-05-error-handling/07-display-and-error-trait.rs"
+
+[[example]]
+name = "ch05-08"
+path = "chapter-05-error-handling/08-from-conversions.rs"
+
+[[example]]
+name = "ch05-09"
+path = "chapter-05-error-handling/09-box-dyn-error-and-main.rs"
