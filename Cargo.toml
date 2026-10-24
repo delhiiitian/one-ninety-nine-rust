@@ -125,3 +125,39 @@ path = "chapter-03-functions/08-recursion.rs"
 [[example]]
 name = "ch03-09"
 path = "chapter-03-functions/09-generic-functions.rs"
+
+[[example]]
+name = "ch04-01"
+path = "chapter-04-data-structures/01-structs.rs"
+
+[[example]]
+name = "ch04-02"
+path = "chapter-04-data-structures/02-methods.rs"
+
+[[example]]
+name = "ch04-03"
+path = "chapter-04-data-structures/03-enums.rs"
+
+[[example]]
+name = "ch04-04"
+path = "chapter-04-data-structures/04-option.rs"
+
+[[example]]
+name = "ch04-05"
+path = "chapter-04-data-structures/05-vectors.rs"
+
+[[example]]
+name = "ch04-06"
+path = "chapter-04-data-structures/06-hashmap.rs"
+
+[[example]]
+name = "ch04-07"
+path = "chapter-04-data-structures/07-hashset-and-btreemap.rs"
+
+[[example]]
+name = "ch04-08"
+path = "chapter-04-data-structures/08-traits.rs"
+
+[[example]]
+name = "ch04-09"
+path = "chapter-04-data-structures/09-derive-and-display.rs"
