@@ -233,3 +233,39 @@ path = "chapter-06-files-and-io/08-parsing-csv.rs"
 [[example]]
 name = "ch06-09"
 path = "chapter-06-files-and-io/09-environment-variables.rs"
+
+[[example]]
+name = "ch07-01"
+path = "chapter-07-modules-and-tooling/01-cargo-projects.rs"
+
+[[example]]
+name = "ch07-02"
+path = "chapter-07-modules-and-tooling/02-modules.rs"
+
+[[example]]
+name = "ch07-03"
+path = "chapter-07-modules-and-tooling/03-visibility.rs"
+
+[[example]]
+name = "ch07-05"
+path = "chapter-07-modules-and-tooling/05-use-and-paths.rs"
+
+[[example]]
+name = "ch07-06"
+path = "chapter-07-modules-and-tooling/06-external-crates.rs"
+
+[[example]]
+name = "ch07-07"
+path = "chapter-07-modules-and-tooling/07-unit-tests.rs"
+
+[[example]]
+name = "ch07-08"
+path = "chapter-07-modules-and-tooling/08-documentation.rs"
+
+[[example]]
+name = "ch07-09"
+path = "chapter-07-modules-and-tooling/09-fmt-and-clippy.rs"
+
+[[example]]
+name = "ch07-04"
+path = "chapter-07-modules-and-tooling/04-modules-in-files/main.rs"
