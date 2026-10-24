@@ -267,5 +267,41 @@ name = "ch07-09"
 path = "chapter-07-modules-and-tooling/09-fmt-and-clippy.rs"
 
 [[example]]
+name = "ch08-01"
+path = "chapter-08-ownership-and-borrowing/01-stack-and-heap.rs"
+
+[[example]]
+name = "ch08-02"
+path = "chapter-08-ownership-and-borrowing/02-ownership-and-moves.rs"
+
+[[example]]
+name = "ch08-03"
+path = "chapter-08-ownership-and-borrowing/03-clone-and-copy.rs"
+
+[[example]]
+name = "ch08-04"
+path = "chapter-08-ownership-and-borrowing/04-borrowing.rs"
+
+[[example]]
+name = "ch08-05"
+path = "chapter-08-ownership-and-borrowing/05-mutable-references.rs"
+
+[[example]]
+name = "ch08-06"
+path = "chapter-08-ownership-and-borrowing/06-slices.rs"
+
+[[example]]
+name = "ch08-07"
+path = "chapter-08-ownership-and-borrowing/07-lifetimes.rs"
+
+[[example]]
+name = "ch08-08"
+path = "chapter-08-ownership-and-borrowing/08-box.rs"
+
+[[example]]
+name = "ch08-09"
+path = "chapter-08-ownership-and-borrowing/09-rc-and-refcell.rs"
+
+[[example]]
 name = "ch07-04"
 path = "chapter-07-modules-and-tooling/04-modules-in-files/main.rs"
