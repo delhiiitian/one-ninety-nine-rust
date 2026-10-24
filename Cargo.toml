@@ -197,3 +197,39 @@ path = "chapter-05-error-handling/08-from-conversions.rs"
 [[example]]
 name = "ch05-09"
 path = "chapter-05-error-handling/09-box-dyn-error-and-main.rs"
+
+[[example]]
+name = "ch06-01"
+path = "chapter-06-files-and-io/01-reading-input.rs"
+
+[[example]]
+name = "ch06-02"
+path = "chapter-06-files-and-io/02-command-line-arguments.rs"
+
+[[example]]
+name = "ch06-03"
+path = "chapter-06-files-and-io/03-writing-files.rs"
+
+[[example]]
+name = "ch06-04"
+path = "chapter-06-files-and-io/04-reading-files.rs"
+
+[[example]]
+name = "ch06-05"
+path = "chapter-06-files-and-io/05-buffered-io.rs"
+
+[[example]]
+name = "ch06-06"
+path = "chapter-06-files-and-io/06-appending-and-open-options.rs"
+
+[[example]]
+name = "ch06-07"
+path = "chapter-06-files-and-io/07-paths-and-directories.rs"
+
+[[example]]
+name = "ch06-08"
+path = "chapter-06-files-and-io/08-parsing-csv.rs"
+
+[[example]]
+name = "ch06-09"
+path = "chapter-06-files-and-io/09-environment-variables.rs"
