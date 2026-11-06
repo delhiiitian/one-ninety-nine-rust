@@ -1,0 +1,16 @@
+[package]
+name = "markdown-converter"
+version = "1.0.0"
+edition = "2021"
+publish = false
+description = "A small Markdown to HTML converter (Rust in 199 Pages, project 7)"
+
+# A package can hold a library AND a binary. The library is what other code
+# (and the tests) use; the binary is a thin command-line wrapper around it.
+[lib]
+name = "mdconv"
+path = "src/lib.rs"
+
+[[bin]]
+name = "mdconv"
+path = "src/main.rs"

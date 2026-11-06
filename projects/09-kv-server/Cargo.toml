@@ -1,0 +1,9 @@
+[package]
+name = "kv-server"
+version = "1.0.0"
+edition = "2021"
+publish = false
+description = "Project 9 of Rust in 199 Pages: a multi-threaded key-value web server"
+
+[dependencies]
+serde_json = "1"

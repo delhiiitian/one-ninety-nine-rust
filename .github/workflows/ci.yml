@@ -1,0 +1,30 @@
+name: CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    env:
+      RUSTFLAGS: -D warnings
+    steps:
+      - uses: actions/checkout@v4
+      - uses: dtolnay/rust-toolchain@stable
+        with:
+          components: clippy
+      - uses: Swatinem/rust-cache@v2
+      - name: Cargo.toml lists every lesson
+        run: |
+          bash scripts/gen-cargo-toml.sh
+          git diff --exit-code Cargo.toml
+      - name: Build everything
+        run: cargo build --workspace --all-targets
+      - name: Run every lesson and every test
+        run: bash scripts/run-all.sh
+      - name: Clippy (advice only; early lessons show the long form on purpose)
+        run: cargo clippy --workspace --all-targets
+        env:
+          RUSTFLAGS: ""
